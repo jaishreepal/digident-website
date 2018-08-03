@@ -1,16 +1,28 @@
 *
 {
-	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   //margin: 10px;
 }
 
+body
+{
+  //background: linear-gradient(to right,#90CAF9,#BBDEFB,#E3F2FD);
+}
+
 .navbar {
-    background-color: #1565C0;
+    //background-color: #1565C0;
+    background: linear-gradient(to right,#0D47A1,#1976D2,#42A5F5);
+}
+
+.nav-link:hover
+{
+  color: #ffffff;
+  font-weight: bold;
 }
 .no-underline:hover
 {
-	text-decoration:none!important;
-	border-bottom:0!important;
+  text-decoration:none!important;
+  border-bottom:0!important;
 }
 
 a.navbar-brand {
@@ -22,17 +34,17 @@ a.navbar-brand {
   
 .logo
 {
-	border-radius:3rem;
-	border-color:#fff;
-	width:120px;
-	height:50px;
-	background-color:#fff;
+  border-radius:3rem;
+  border-color:#fff;
+  width:120px;
+  height:50px;
+  background-color:#fff;
 }
 
 .logo:hover{
-	background-color:#E3F2FD;
+  background-color:#E3F2FD;
 }
-	
+  
   
   li.nav-item .btn {
   margin-top: .2rem;
@@ -75,6 +87,20 @@ li.nav-item .btn-white {
   //float: left;
   color: #1565C0;
 }
+
+.text2
+{
+  float: right;
+  color: #1565C0;
+  margin-right: 30px;
+}
+
+.text3
+{
+  font-size: 22px;
+  margin: 20px;
+  justify-content: center;
+}
 .tag
 {
   color:#1565C0;
@@ -83,6 +109,11 @@ li.nav-item .btn-white {
     line-height:1.5;
     top: 13em;
     left: 36.5em;
+}
+
+.design
+{
+  margin-left: 20px;
 }
 
 .carousel
