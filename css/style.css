@@ -1,3 +1,7 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
 nav {
   border-bottom: 1px solid #4888c8;
 }
@@ -23,18 +27,32 @@ nav img {
 }
 
 #home {
-  padding: 30px 0;
+  padding-top: 30px;
   background-image: url('../images/backdrop-home.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+  min-height: 600px;
 }
 
 #welcome {
-  margin:50px;
+  margin: 50px 50px auto;
   padding: 30px;
   background-color: rgba(255,255,255,.7);
   color: #4888c8;
   border-radius: 3px;
+}
+
+#tagline {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  background-color: rgba(255,255,255,.9);
+}
+
+#tagline h2{
 }
 
 #home-options>div {
