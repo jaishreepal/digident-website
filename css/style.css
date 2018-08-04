@@ -133,4 +133,53 @@ nav img {
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #4888c8 ;
+  border-top: 1px solid #4888c8 ;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-control-placeholder {
+  position: absolute;
+  top: 0;
+  padding: 7px 0 0 13px;
+  transition: all 200ms;
+  opacity: 0.5;
+}
+
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+  font-size: 75%;
+  transform: translate3d(0, -100%, 0);
+  opacity: 1;
+}
+
+
+.container4
+{
+  padding: 20px;
+  justify-content: center;
+}
+
+.card2
+{
+  background: linear-gradient(to right,rgba(118, 166, 242, 0.4), rgba(17, 63, 137, 0.4)100%);
+  border: 1px solid #4888c8 ;
+}
+
+hr
+{
+  display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #4888c8;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.container7
+{
+  text-align: center;
 }
