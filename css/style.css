@@ -197,3 +197,9 @@ hr
   background-attachment: fixed;
   color: ghostwhite;
 }
+
+.centertext
+{
+  justify-content: center;
+  text-align: center;
+}
