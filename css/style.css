@@ -165,7 +165,7 @@ nav img {
 
 .card2
 {
-  background: linear-gradient(to right,rgba(118, 166, 242, 0.4), rgba(17, 63, 137, 0.4)100%);
+  background: linear-gradient(to right,rgba(29, 236, 197, 0.4), rgba(17, 63, 137, 0.4)100%);
   border: 1px solid #4888c8 ;
 }
 
@@ -182,4 +182,18 @@ hr
 .container7
 {
   text-align: center;
+}
+
+.back
+{
+  background: linear-gradient(rgba(29, 236, 197,.6), rgba(17, 63, 137,.6)), url("../images/backdrop_index.jpg");
+  background-repeat:no-repeat;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position:center center;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+  color: ghostwhite;
 }
