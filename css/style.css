@@ -68,3 +68,189 @@ nav img {
   background-color: steelblue;
   color: aliceblue;
 }
+
+.heading_hero{
+
+      font-weight: 900 !important;
+    margin-bottom: 3em;
+    text-align: center;}
+
+
+.container
+{ 
+
+      display: flex;
+    justify-content: center;
+    align-items: center;
+  max-width: 100%;
+  background-image: url('../images/backdrop-book2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 600px;
+  padding: 30px;
+  width: 100%;
+}
+
+#text
+{
+display: flex;
+    flex-direction: column;
+    color: #1976D2;
+    background-color: rgba(255, 255, 255,.7);
+    margin: 50px;
+    padding: 54px 30px;
+    border-radius: 4px;
+  
+}
+
+.card
+{
+  padding: 15px;
+  margin:20px 60px 20px 60px;
+  height: auto;
+}
+
+.card img
+{
+  margin: 5px;
+}
+
+.no-underline:hover
+{
+  text-decoration:none!important;
+  border-bottom:0!important;
+}
+
+.container2
+{
+  padding: 20px;
+  margin: 0px 0px 0px 0px;
+  background: linear-gradient(to right,rgba(29, 236, 197, 0.4), rgba(2, 28, 76, 0.4)100%);
+}
+
+.content2
+{
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right,rgba(29, 236, 197, 0.4), rgba(2, 28, 76, 0.4)100%);
+}
+
+.container3
+{
+  background-color: #f5f5f5;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-top: 1px solid #4888c8 ;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-control-placeholder {
+  position: absolute;
+  top: 0;
+  padding: 7px 0 0 13px;
+  transition: all 200ms;
+  opacity: 0.5;
+}
+
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+  font-size: 75%;
+  transform: translate3d(0, -100%, 0);
+  opacity: 1;
+}
+
+
+.container4
+{
+  padding: 20px;
+  justify-content: center;
+}
+
+.card2
+{
+  background: linear-gradient(to right,rgba(29, 236, 197, 0.4), rgba(17, 63, 137, 0.4)100%);
+  border: 1px solid #4888c8 ;
+}
+
+hr
+{
+  display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #4888c8;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.container7
+{
+  text-align: center;
+}
+
+.back
+{
+  background: linear-gradient(rgba(29, 236, 197,.6), rgba(17, 63, 137,.6)), url("../images/backdrop_index.jpg");
+  background-repeat:no-repeat;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position:center center;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+  color: ghostwhite;
+}
+
+.centertext
+{
+  justify-content: center;
+  text-align: center;
+}
+
+.container8 p
+{
+  text-align: center;
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container8
+{
+    display: block;
+    margin: 0px;
+    background:#e8f6ff;
+    padding-top: 20px;
+}
+
+.selectpicker
+{
+  width: 220px;
+  height: 32px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.card3
+{
+  width: 70%;
+  background:linear-gradient(rgba(29, 236, 197,.6), rgba(17, 63, 137,.6));
+}
+
+.cart
+{
+  display: block;
+  background:#35d3ff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold; 
+  margin: 0px;
+}
