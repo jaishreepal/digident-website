@@ -70,18 +70,17 @@ nav img {
 }
 
 .heading_hero{
-
-      font-weight: 900 !important;
-    margin-bottom: 3em;
-    text-align: center;}
+  font-weight: 900 !important;
+  margin-bottom: 3em;
+  text-align: center;
+}
 
 
 .container
-{ 
-
-      display: flex;
-    justify-content: center;
-    align-items: center;
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 100%;
   background-image: url('../images/backdrop-book2.jpg');
   background-size: cover;
@@ -94,14 +93,13 @@ nav img {
 
 #text
 {
-display: flex;
-    flex-direction: column;
-    color: #1976D2;
-    background-color: rgba(255, 255, 255,.7);
-    margin: 50px;
-    padding: 54px 30px;
-    border-radius: 4px;
-  
+  display: flex;
+  flex-direction: column;
+  color: #1976D2;
+  background-color: rgba(255, 255, 255,.7);
+  margin: 50px;
+  padding: 54px 30px;
+  border-radius: 4px;
 }
 
 .card
@@ -181,11 +179,11 @@ display: flex;
 hr
 {
   display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #4888c8;
-    margin: 1em 0;
-    padding: 0; 
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #4888c8;
+  margin: 1em 0;
+  padding: 0; 
 }
 
 .container7
@@ -225,10 +223,10 @@ hr
 
 .container8
 {
-    display: block;
-    margin: 0px;
-    background:#e8f6ff;
-    padding-top: 20px;
+  display: block;
+  margin: 0px;
+  background:#e8f6ff;
+  padding-top: 20px;
 }
 
 .selectpicker
