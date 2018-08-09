@@ -104,14 +104,21 @@ nav img {
 
 .card
 {
-  padding: 15px;
-  margin:20px 60px 20px 60px;
+  padding: 20px;
+  margin: 15px 0;
+  bottom: 0;
+  top:0;
+}
+
+.card p.content {
   height: auto;
+  text-align: center;
 }
 
 .card img
 {
-  margin: 5px;
+  margin: 10px;
+  margin-bottom: 20px;
 }
 
 .no-underline:hover
@@ -125,6 +132,12 @@ nav img {
   padding: 20px;
   margin: 0px 0px 0px 0px;
   background: linear-gradient(to right,rgba(29, 236, 197, 0.4), rgba(2, 28, 76, 0.4)100%);
+}
+
+
+.contaner2 > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }
 
 .content2
