@@ -69,37 +69,24 @@ nav img {
   color: aliceblue;
 }
 
-.heading_hero{
-  font-weight: 900 !important;
-  margin-bottom: 3em;
-  text-align: center;
+
+
+
+#book-text-container
+{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#book-text>h2
+{
+  margin-bottom: 30px;
 }
 
 
-.container
+#book-text>p
 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%;
-  background-image: url('../images/backdrop-book2.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  min-height: 600px;
-  padding: 30px;
-  width: 100%;
-}
-
-#text
-{
-  display: flex;
-  flex-direction: column;
-  color: #1976D2;
-  background-color: rgba(255, 255, 255,.7);
-  margin: 50px;
-  padding: 54px 30px;
-  border-radius: 4px;
+  color: #3868a8;
 }
 
 .card
@@ -148,6 +135,9 @@ nav img {
   background-color: steelblue;
 }
 
+.container2 h5 {
+  margin: 40px auto;
+}
 .content2
 {
   text-align: center;
