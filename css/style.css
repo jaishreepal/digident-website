@@ -104,21 +104,34 @@ nav img {
 
 .card
 {
-  padding: 20px;
   margin: 15px 0;
   bottom: 0;
   top:0;
+  border: none;
+  background-color: steelblue;
+}
+
+.card>div {
+  
 }
 
 .card p.content {
   height: auto;
   text-align: center;
+  width: 100%;
+  padding: 20px 15px 5px;
+  color: white;
 }
 
-.card img
+.card>img
 {
-  margin: 10px;
-  margin-bottom: 20px;
+  top:0; 
+  left:0; 
+  right:0;
+  width:100%;
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .no-underline:hover
@@ -131,13 +144,8 @@ nav img {
 {
   padding: 20px;
   margin: 0px 0px 0px 0px;
-  background: linear-gradient(to right,rgba(29, 236, 197, 0.4), rgba(2, 28, 76, 0.4)100%);
-}
-
-
-.contaner2 > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
+  width:100vw;
+  background-color: steelblue;
 }
 
 .content2
