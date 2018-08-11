@@ -69,51 +69,56 @@ nav img {
   color: aliceblue;
 }
 
-.heading_hero{
-
-      font-weight: 900 !important;
-    margin-bottom: 3em;
-    text-align: center;}
 
 
-.container
-{ 
 
-      display: flex;
-    justify-content: center;
-    align-items: center;
-  max-width: 100%;
-  background-image: url('../images/backdrop-book2.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  min-height: 600px;
-  padding: 30px;
-  width: 100%;
+#book-text-container
+{
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-#text
+#book-text>h2
 {
-display: flex;
-    flex-direction: column;
-    color: #1976D2;
-    background-color: rgba(255, 255, 255,.7);
-    margin: 50px;
-    padding: 54px 30px;
-    border-radius: 4px;
-  
+  margin-bottom: 30px;
+}
+
+
+#book-text>p
+{
+  color: #3868a8;
 }
 
 .card
 {
-  padding: 15px;
-  margin:20px 60px 20px 60px;
-  height: auto;
+  margin: 15px 0;
+  bottom: 0;
+  top:0;
+  border: none;
+  background-color: steelblue;
 }
 
-.card img
+.card>div {
+  
+}
+
+.card p.content {
+  height: auto;
+  text-align: center;
+  width: 100%;
+  padding: 20px 15px 5px;
+  color: white;
+}
+
+.card>img
 {
-  margin: 5px;
+  top:0; 
+  left:0; 
+  right:0;
+  width:100%;
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .no-underline:hover
@@ -126,9 +131,13 @@ display: flex;
 {
   padding: 20px;
   margin: 0px 0px 0px 0px;
-  background: linear-gradient(to right,rgba(29, 236, 197, 0.4), rgba(2, 28, 76, 0.4)100%);
+  width:100vw;
+  background-color: steelblue;
 }
 
+.container2 h5 {
+  margin: 40px auto;
+}
 .content2
 {
   text-align: center;
@@ -181,11 +190,11 @@ display: flex;
 hr
 {
   display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #4888c8;
-    margin: 1em 0;
-    padding: 0; 
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #4888c8;
+  margin: 1em 0;
+  padding: 0; 
 }
 
 .container7
@@ -225,10 +234,10 @@ hr
 
 .container8
 {
-    display: block;
-    margin: 0px;
-    background:#e8f6ff;
-    padding-top: 20px;
+  display: block;
+  margin: 0px;
+  background:#e8f6ff;
+  padding-top: 20px;
 }
 
 .selectpicker
