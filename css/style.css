@@ -6,6 +6,7 @@ nav {
   border-bottom: 1px solid #4888c8;
 }
 
+
 nav img {
   height:70px;
 }
@@ -16,6 +17,7 @@ nav img {
   line-height: 60px;
   background-color: #f5f5f5;
   text-align: center;
+  border-top: 1px solid #4888c8;
 }
 
 .row {
@@ -45,7 +47,7 @@ nav img {
 
 #tagline {
   position: absolute;
-  bottom: 0;
+  margin-top: 492px;
   text-align: center;
   padding: 20px;
   width: 100%;
@@ -60,60 +62,73 @@ nav img {
 }
 
 #home-sgt {
-  background-color: lightsteelblue;
-  color: ghostwhite
+  background-color: steelblue;
+  color: ghostwhite;
+  width: 100%;
+  text-align: center;
 }
 
 #home-sgb {
-  background-color: steelblue;
-  color: aliceblue;
-}
-
-.heading_hero{
-
-      font-weight: 900 !important;
-    margin-bottom: 3em;
-    text-align: center;}
-
-
-.container
-{ 
-
-      display: flex;
-    justify-content: center;
-    align-items: center;
-  max-width: 100%;
-  background-image: url('../images/backdrop-book2.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  min-height: 600px;
-  padding: 30px;
+  background-color: lightsteelblue;
+  color: #306dd6;
+  font-weight: bold;
   width: 100%;
+  text-align: center;
 }
 
-#text
+.no-bullets
 {
-display: flex;
-    flex-direction: column;
-    color: #1976D2;
-    background-color: rgba(255, 255, 255,.7);
-    margin: 50px;
-    padding: 54px 30px;
-    border-radius: 4px;
-  
+  list-style: none;
+}
+
+
+#book-text-container
+{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#book-text>h2
+{
+  margin-bottom: 30px;
+}
+
+
+#book-text>p
+{
+  color: #3868a8;
 }
 
 .card
 {
-  padding: 15px;
-  margin:20px 60px 20px 60px;
-  height: auto;
+  margin: 15px 0;
+  bottom: 0;
+  top:0;
+  border: none;
+  background-color: steelblue;
 }
 
-.card img
+.card>div {
+  
+}
+
+.card p.content {
+  height: auto;
+  text-align: center;
+  width: 100%;
+  padding: 20px 15px 5px;
+  color: white;
+}
+
+.card>img
 {
-  margin: 5px;
+  top:0; 
+  left:0; 
+  right:0;
+  width:100%;
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .no-underline:hover
@@ -126,20 +141,30 @@ display: flex;
 {
   padding: 20px;
   margin: 0px 0px 0px 0px;
-  background: linear-gradient(to right,rgba(29, 236, 197, 0.4), rgba(2, 28, 76, 0.4)100%);
+  width:100vw;
+  background-color: steelblue;
 }
 
+.container2 h5 {
+  margin: 40px auto;
+}
 .content2
 {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(to right,rgba(29, 236, 197, 0.4), rgba(2, 28, 76, 0.4)100%);
+  background: steelblue;
+}
+
+.content2 a
+{
+  color: white;
 }
 
 .container3
 {
   background-color: #f5f5f5;
   margin: 0;
+  position: absolute;
   padding-top: 20px;
   padding-bottom: 10px;
   border-top: 1px solid #4888c8 ;
@@ -176,16 +201,19 @@ display: flex;
 {
   background: linear-gradient(to right,rgba(29, 236, 197, 0.4), rgba(17, 63, 137, 0.4)100%);
   border: 1px solid #4888c8 ;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 20px;
 }
 
 hr
 {
   display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #4888c8;
-    margin: 1em 0;
-    padding: 0; 
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #4888c8;
+  margin: 1em 0;
+  padding: 0; 
 }
 
 .container7
@@ -225,10 +253,9 @@ hr
 
 .container8
 {
-    display: block;
-    margin: 0px;
-    background:#e8f6ff;
-    padding-top: 20px;
+  display: block;
+  margin: 0px;
+  padding-top: 20px;
 }
 
 .selectpicker
@@ -239,18 +266,75 @@ hr
   align-items: center;
 }
 
+.right-item
+{
+  float: right!important;
+}
 .card3
 {
   width: 70%;
   background:linear-gradient(rgba(29, 236, 197,.6), rgba(17, 63, 137,.6));
 }
 
-.cart
+.card3 img
+{
+  width: 400px;
+  height: auto;
+}
+
+.heading
 {
   display: block;
-  background:#35d3ff;
+  background:white;
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-weight: bold; 
   margin: 0px;
+}
+
+.about_container h4,.heading
+{
+  font-weight: bold;
+  margin: 20px;
+}
+
+.about_container p
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.about_container img
+{
+  border-radius: 5px;
+  border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.about_container
+{
+  color: ghostwhite;
+  padding: 20px;
+  background: linear-gradient(to right,steelblue, steelblue 100%)
+}
+
+.carousel h5
+{
+  color: #000000;
+  background-color: rgb(255,255,255,0.4);
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+  width: auto;
+}
+
+.button
+{
+  background-color: steelblue;
+  color: ghostwhite;
+  border-radius: 5px;
+  border: none;
 }
