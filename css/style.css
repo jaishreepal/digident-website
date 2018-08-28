@@ -404,18 +404,20 @@ hr
 .footer-menu
 {
   display: none;
+  margin-top: 8px;
+  margin-bottom: 10px;
   list-style-type: none;
   color: rgba(0,0,0,.5);
   line-height: 16px;
-  margin-right: auto;
-  //margin-left: 10px;
-  margin-bottom: 0px;
-  margin-top: 20px;
-  float: left;
-
 }
 
-@media (max-width: 960px)
+/*.copyright
+{
+  background-color: steelblue;
+  color: white; 
+}*/
+
+@media (max-width: 1080px)
 {
   .navbar-nav2
   {
@@ -423,8 +425,7 @@ hr
   }
   .footer-menu
   {
-    display: flex;
-    //justify-content: left;
+    display: block;
 
   }
 }
